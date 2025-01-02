@@ -1,0 +1,159 @@
+{
+	"layer": "top",
+	"modules-left": ["custom/launcher", "tray", "backlight", "wireplumber", "mpris", "cava"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": ["hyprland/language", "network", "cpu", "memory", "battery", "clock"],
+
+  /* doesn't work in this repo
+  "cava": {
+	//        "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+  	"framerate": 30,
+  	"autosens": 1,
+  	"bars": 14,
+  	"lower_cutoff_freq": 50,
+  	"higher_cutoff_freq": 10000,
+  	"method": "pipewire",
+  	"source": "auto",
+  	"stereo": true,
+  	"bar_delimiter": 0,
+  	"noise_reduction": 0.77,
+  	"input_delay": 2,
+          "hide_on_silence": true,
+  	"format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+  	"actions": {
+  	    "on-click-right": "mode"
+  	}
+  },
+  */
+  "mpris": {
+  	"format": "{player_icon} {title}",
+  	"format-paused": "{status_icon} <i>{title}</i>",
+    "title-len": 40,
+  	"player-icons": {
+  		"default": "▶",
+	  	"mpv": "🎵"
+  	},
+  	"status-icons": {
+  		"paused": "⏸"
+  	},
+  	// "ignored-players": ["firefox"]
+  },
+    
+	"hyprland/language": {
+		"format": " {}",
+		"min-length": 5,
+		/* "on-click": "swaymsg 'input * xkb_switch_layout next'", */
+		"tooltip": false
+	},
+
+  "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+  },
+
+  "wireplumber": {
+    "tooltip": false,
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-muted": "󰝟 {volume}%",
+    "on-click":"foot -- alsamixer -V all",
+    "format-icons": {
+      "default": ["", "", ""]
+    }
+  },
+
+
+  "network": {
+    "tooltip": false,
+    "format-wifi": "  {essid}",
+    "format-ethernet": "",
+    "on-click":"foot -- nmtui",
+	},
+
+
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval":1,
+    "on-scroll-up": "light -A 5",
+		"on-scroll-down": "light -U 5"
+	},
+
+
+  "battery": {
+      "states": {
+          "full": 100,
+          "good": 95,
+          "decent": 50,
+          "warning": 30,
+          "critical": 20
+      },
+      "format": "{icon}  {capacity}%",
+      "format-time": "{H} h {M} min",
+      "format-alt": "{icon} {time}",
+      "format-icons": ["", "", "", "", ""]
+  },
+
+
+  "clock": {
+      "format": "{:%H:%M}",
+      "format-alt": "{:%m-%d-%Y}"
+  },
+
+
+  "cpu": {
+      "interval": 15,
+      "format": "  {}%",
+      "max-length": 10,
+      "on-click":"foot -- btop"
+  },
+
+
+  "memory": {
+      "interval": 30,
+      "format": "  {}%",
+      "max-length": 10
+  },
+
+
+  "custom/media": {
+      "interval": 30,
+      "format": "{icon} {}",
+      "return-type": "json",
+      "max-length": 20,
+      "format-icons": {
+          "spotify": " ",
+          "default": " "
+      },
+      "escape": true,
+      "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
+      "on-click": "playerctl play-pause"
+  },
+
+
+  "custom/launcher":{
+      "format": " ",
+      "on-click": "wofi --show drun",
+      "on-click-right": "killall wofi"
+  },
+
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+    },
+    "active": "",
+    "sort-by-number": true
+  },
+}
