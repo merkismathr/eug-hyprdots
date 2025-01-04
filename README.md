@@ -24,7 +24,8 @@ Dear future merkismathr, please use:
 ||pipewire||
 ||wireplumber||
 |**auth agent**|hyprpolkitagent|idk lol|
-|wallpaper|hyprpaper|pacman|
+|**wallpaper**|hyprpaper|pacman|
+|**emacs**|doom|[url](https://github.com/doomemacs/doomemacs)|
 
 
 also don't forget `qt5-wayland` and `qt6-wayland`
