@@ -9,4 +9,6 @@ bar - waybar
 
 logout screen (Ctrl+Alt+Del)- wlogout
 
-music player: musikcube
+
+## optional
+music player - musikcube
