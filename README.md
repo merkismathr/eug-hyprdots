@@ -4,9 +4,8 @@ hi
 
 # prereqs
 
-`* * * TODO notif daemon looks ugly; change font
-
-add ctrl c ctrl v manager`
+`* * * TODO notif daemon looks ugly; change font`
+`add ctrl c ctrl v manager`
 
 
 Dear future merkismathr, please use:
