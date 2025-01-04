@@ -16,7 +16,10 @@ Dear future merkismathr, please use:
 
 | tool | name | 
 | -----|------|
-|asdasd|asdasd|    
+|wm|hyprland|
+|bar|waybar|
+|logout screen|wlogout|
+|session mgr|uwsm|
   
 
 ## optional
