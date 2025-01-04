@@ -6,20 +6,12 @@ hi
 
 Dear future merkismathr, please use:
 
-**wm** - hyprland
-
-**bar** - waybar
-
-**logout screen** _(Ctrl+Alt+Del)_ - wlogout
-
-**session manager** - uwsm
-
 | tool | name | 
 | -----|------|
-|wm|hyprland|
-|bar|waybar|
-|logout screen|wlogout|
-|session mgr|uwsm|
+|**wm**|hyprland|
+|**bar**|waybar|
+|**logout screen**|wlogout|
+|**session mgr**|uwsm|
   
 
 ## optional
