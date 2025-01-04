@@ -4,7 +4,11 @@ hi
 
 # prereqs
 
+TODO notif daemon looks ugly; change fond
+TODO add ctrl c ctrl v manager
+
 Dear future merkismathr, please use:
+[Hyprland Wiki](https://wiki.hyprland.org/)
 
 | tool | name | repo |
 | -----|------|------|
@@ -15,6 +19,13 @@ Dear future merkismathr, please use:
 |**resource monitor**|btop|[url](https://github.com/aristocratos/btop)|
 |**menu**|wofi|def|
 |**the thing**|zapret|[also chk tg](https://github.com/bol-van/zapret)|
+|**notif daemon**|swaync|[url](https://github.com/ErikReider/SwayNotificationCenter)|
+|**audio**|alsamixer|
+||pipewire||
+||wireplumber||
+|**auth agent**|
+
+also don't forget `qt5-wayland` and `qt6-wayland`
 
 ## optional
 | tool | name | repo | info |
@@ -22,4 +33,4 @@ Dear future merkismathr, please use:
 |**music player**|musikcube|[url](https://github.com/clangen/musikcube)||
 |**browser** | firefox | _via_ [chrome.css](https://github.com/MrOtherGuy/firefox-csshacks) | sidebery + autohide |
 | **file manager** | _thunar_ | | _not recommended_ |
-|**sync**|syncthing|https://github.com/syncthing/syncthing|
+|**sync**|syncthing|[url](https://github.com/syncthing/syncthing)|
