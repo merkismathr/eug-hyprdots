@@ -23,7 +23,9 @@ Dear future merkismathr, please use:
 |**audio**|alsamixer|
 ||pipewire||
 ||wireplumber||
-|**auth agent**|
+|**auth agent**|hyprpolkitagent|idk lol|
+|wallpaper|hyprpaper|pacman|
+
 
 also don't forget `qt5-wayland` and `qt6-wayland`
 
