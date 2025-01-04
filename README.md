@@ -6,8 +6,8 @@ hi
 
 Dear future merkismathr, please use:
 
-| tool | name | 
-| -----|------|
+| tool | name | repo |
+| -----|------|------|
 |**wm**|hyprland|
 |**bar**|waybar|
 |**logout screen**|wlogout|
