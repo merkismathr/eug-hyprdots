@@ -2,10 +2,16 @@ hi
 
 ![2025-01-03-020757_hyprshot](https://github.com/user-attachments/assets/4c5f0aca-7e4a-4736-9602-472c485603cb)
 
+**TODO** 
+
+- [ ] notif daemon looks ugly; change font
+
+- [ ] add ctrl c ctrl v manager
+
+
+
 # prereqs
 
-`* * * TODO notif daemon looks ugly; change font`
-`add ctrl c ctrl v manager`
 
 
 Dear future merkismathr, please use:
