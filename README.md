@@ -8,7 +8,7 @@ Dear future merkismathr, please use:
 
 | tool | name | repo |
 | -----|------|------|
-|**wm**|hyprland|
+|**wm**|hyprland|[gh](https://github.com/hyprwm/Hyprland)|
 |**bar**|waybar|
 |**logout screen**|wlogout|
 |**session mgr**|uwsm|
