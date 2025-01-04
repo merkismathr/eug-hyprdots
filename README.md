@@ -8,10 +8,10 @@ Dear future merkismathr, please use:
 
 | tool | name | repo |
 | -----|------|------|
-|**wm**|hyprland|[gh](https://github.com/hyprwm/Hyprland)|
-|**bar**|waybar|
-|**logout screen**|wlogout|
-|**session mgr**|uwsm|
+|**wm**|hyprland|[url](https://github.com/hyprwm/Hyprland)|
+|**bar**|waybar|[url](https://github.com/Alexays/Waybar)|
+|**logout screen**|wlogout|[url](https://github.com/ArtsyMacaw/wlogout)|
+|**session mgr**|uwsm|[url](https://github.com/Vladimir-csp/uwsm)|
   
 
 ## optional
