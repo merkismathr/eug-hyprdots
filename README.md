@@ -10,8 +10,13 @@ Dear future merkismathr, please use:
 
 **bar** - waybar
 
-**logout screen** _(Ctrl+Alt+Del)_ -- wlogout
+**logout screen** _(Ctrl+Alt+Del)_ - wlogout
+
+**session manager** - uwsm
 
 
 ## optional
-music player - musikcube
+
+**music player** - musikcube
+
+**browser** - firefox _via_ chrome.css // sidebery + autohide
