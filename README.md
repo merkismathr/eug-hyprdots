@@ -14,13 +14,11 @@ Dear future merkismathr, please use:
 |**session mgr**|uwsm|[url](https://github.com/Vladimir-csp/uwsm)|
 |**resource monitor**|btop|[url](https://github.com/aristocratos/btop)|
 |**menu**|wofi|def|
-
-
+|**the thing**|zapret|
 
 ## optional
-
-**music player** - musikcube
-
-**browser** - firefox _via_ [chrome.css](https://github.com/MrOtherGuy/firefox-csshacks) // sidebery + autohide //  
-
-**file manager** - thunar // not recommended
+| tool | name | repo | info |
+| -----|------|------|------|
+|**music player**|musikcube|[url](https://github.com/clangen/musikcube)||
+|**browser** | firefox | _via_ [chrome.css](https://github.com/MrOtherGuy/firefox-csshacks) | sidebery + autohide |
+| **file manager** | _thunar_ | _not recommended_ |
