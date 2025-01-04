@@ -6,11 +6,11 @@ hi
 
 Dear future merkismathr, please use:
 
-wm - hyprland
+**wm** - hyprland
 
-bar - waybar
+**bar** - waybar
 
-logout screen (Ctrl+Alt+Del)- wlogout
+**logout screen** _(Ctrl+Alt+Del)_ -- wlogout
 
 
 ## optional
