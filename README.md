@@ -14,9 +14,15 @@ Dear future merkismathr, please use:
 
 **session manager** - uwsm
 
+| tool | name | 
+| -----|------|
+|asdasd|asdasd|    
+  
 
 ## optional
 
 **music player** - musikcube
 
 **browser** - firefox _via_ chrome.css // sidebery + autohide
+
+**file manager** - thunar // not recommended
