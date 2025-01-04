@@ -12,12 +12,15 @@ Dear future merkismathr, please use:
 |**bar**|waybar|[url](https://github.com/Alexays/Waybar)|
 |**logout screen**|wlogout|[url](https://github.com/ArtsyMacaw/wlogout)|
 |**session mgr**|uwsm|[url](https://github.com/Vladimir-csp/uwsm)|
-  
+|**resource monitor**|btop|[url](https://github.com/aristocratos/btop)|
+|**menu**|wofi|def|
+
+
 
 ## optional
 
 **music player** - musikcube
 
-**browser** - firefox _via_ chrome.css // sidebery + autohide
+**browser** - firefox _via_ [chrome.css](https://github.com/MrOtherGuy/firefox-csshacks) // sidebery + autohide //  
 
 **file manager** - thunar // not recommended
