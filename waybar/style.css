@@ -38,7 +38,7 @@ window#waybar.hidden {
 #cpu,
 #custom-launcher,
 #custom-media {
-  margin-top: 16px;
+  margin-top: 12px;
   margin-left: 8px;
   margin-bottom: 0px;
   padding-right: 10px;
@@ -162,7 +162,7 @@ window#waybar.hidden {
 }
 
 #clock {
-  margin-right: 20px;
+  margin-right: 12px;
   transition: none;
   color: #161320;
   background: #e64f3e;
@@ -185,7 +185,7 @@ window#waybar.hidden {
 
 #custom-launcher {
   font-size: 24px;
-  margin-left: 20px;
+  margin-left: 12px;
   padding-left: 20px;
   padding-right: 5px;
   border-radius: 10px;

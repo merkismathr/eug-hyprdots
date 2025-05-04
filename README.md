@@ -8,6 +8,7 @@ hi
 
 - [ ] add ctrl c ctrl v manager
 
+- [ ] tune blur settings
 
 
 # prereqs
